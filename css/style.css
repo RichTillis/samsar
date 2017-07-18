@@ -191,8 +191,13 @@ p{
 .grey_light{
 	background:#F7F7F7;
 }
+.brown_leather{
+	background-image: url(../images/brown_leather.jpg);
+	background-size: cover;
+}
 .paper_white{
-	background-image: url(../images/natural-paper-background.jpg)
+	background-image: url(../images/natural-paper-background.jpg);
+	background-size: cover;
 }
 .blue_t{
 	color:#352f89;
@@ -1391,6 +1396,7 @@ nav.navbar.bootsnav ul.nav li.dropdown ul.dropdown-menu > li > a:focus{
 /* ----------------- Main Img --------------------- */
 .main_img{
 	padding-top: 80px;
+	padding-bottom: 80px;
 }
 .center_img{
 	margin: 0 auto;

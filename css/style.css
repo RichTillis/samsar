@@ -191,6 +191,9 @@ p{
 .grey_light{
 	background:#F7F7F7;
 }
+.paper_white{
+	background-image: url(../images/natural-paper-background.jpg)
+}
 .blue_t{
 	color:#352f89;
 }
@@ -225,6 +228,15 @@ p{
 .tagline{
 	margin-left:10%;
 	margin-right:10%;
+}
+.popout{
+	padding: 20px;
+	border-radius: 25px;
+	background-color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.img_popout{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .image{
 	position:relative;
@@ -1376,6 +1388,13 @@ nav.navbar.bootsnav ul.nav li.dropdown ul.dropdown-menu > li > a:focus{
 
 /* ----------------- OWL Slider ends  ----------------- */
 
+/* ----------------- Main Img --------------------- */
+.main_img{
+	padding-top: 80px;
+}
+.center_img{
+	margin: 0 auto;
+}
 
 
 /* ----------------- Good Plan ----------------- */

@@ -284,6 +284,19 @@ jQuery(function($) {"use strict";
         lightboxGallery: true,
         lightboxTitleSrc: "data-title",
         lightboxCounter: '<div class="cbp-popup-lightbox-counter">{{current}} of {{total}}</div>',
+	});
+	$("#grid_layout2").cubeportfolio({
+        layoutMode: "mosaic",
+        gapHorizontal:30,
+        gapVertical:30,
+        gridAdjustment: "responsive",
+        caption: "fadeIn",
+        displayType: "fadeIn",
+        // lightbox
+        lightboxDelegate: ".cbp-lightbox",
+        lightboxGallery: true,
+        lightboxTitleSrc: "data-title",
+        lightboxCounter: '<div class="cbp-popup-lightbox-counter">{{current}} of {{total}}</div>',
     });
 	 
 	 //Portfolio

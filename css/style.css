@@ -3,7 +3,7 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300italic,300,400italic,600,600italic,700,700italic,800,800italic);
 
 
-@charset "utf-8";
+/*@charset "utf-8";*/
 /*Table Of Contents
 
 body
@@ -139,6 +139,7 @@ p{
 	padding-top:80px;
 }
 .padding-top{ padding-top:80px; }
+.padding-top20{ padding-top:20px; }
 .padding-bottom{ padding-bottom:80px; }
 .padding-bottom-half{ padding-bottom:40px;}
 .padding-top-half{padding-top:40px;}
@@ -1891,8 +1892,10 @@ button{ border:none;}
 
 /* ----------------- Page Header ----------------- */
 .page_header{
-	background:url(../images/page-header.jpg) no-repeat;
-	padding:110px 0;
+	/* background:url(../images/page-header.jpg) no-repeat;*/
+	padding:110px 0; 
+	background-image: url(../images/brown_leather.jpg);
+	background-size: cover;
 }
 .page_header, .page_header p{ color:#fff;}
 .page_header p{ margin-bottom:5px;}
@@ -2635,7 +2638,7 @@ nav.navbar.bootsnav ul.nav > li > a.border:before{
 }
 
 
-.#rev_slider.top, .rev_slider_wrapper.top{ margin-top:50px !important;}
+/* .#rev_slider.top, .rev_slider_wrapper.top{ margin-top:50px !important;} */
 
 /*  Good Plan */
 #plans .content_right{

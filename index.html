@@ -317,7 +317,7 @@
           <h2 class="bottom10 text-capitalize">SAMSAR
             <span class="red_t">News</span>
           </h2>
-          <p class="tagline heading_space popout">Phasellus lorem enim, luctus ut velit eget, convallis egestas eros. Sed ornare ligula eget tortor tempor</p>
+          <p class="tagline heading_space popout">The Latest News & Information from SAMSAR</p>
         </div>
       </div>
       <div class="row">
@@ -326,7 +326,9 @@
           <div class="item">
             <div class="news">
               <div class="image">
-                <img src="images/training-card.png" alt="News">
+                <a id="rescue-training" rel="rescue-training" href="images/training-card.png" title="Specialized Rescue Training">
+                  <img src="images/training-card.png" alt="image">
+                </a>
               </div>
               <div class="news_text">
                 <h4 class="bottom10">
@@ -345,11 +347,10 @@
           </div>
           <div class="item">
             <div class="news">
-                
               <div class="image">
-                  <a href="images/7fallsDec2017.png" class="swipebox" title="My Caption">
-                    <img src="images/7fallsDec2017.png" alt="image">
-                    </a>
+                <a href="images/7fallsDec2017.png" class="swipebox" title="7 Falls Rescue">
+                  <img src="images/7fallsDec2017.png" alt="image">
+                </a>
               </div>
               <div class="news_text">
                 <h4 class="bottom10">
@@ -486,7 +487,7 @@
         <div class="contact_inner">
           <i class="icon-email2"></i>
           <a href="mailto:kmwadern@aol.com?subject=SAMSAR%20Contact%20Request">
-            <strong>info@samsaraz.org</strong>
+            <strong>Email SAMSAR</strong>
           </a>
         </div>
       </div>
@@ -579,13 +580,14 @@
   <script src="js/wow.min.js"></script>
   <script src="js/functions.js"></script>
   <script src="js/jquery.swipebox.js"></script>
+  <script src="js/rescue-training.js"></script>
   <script type="text/javascript">
-    ;( function( $ ) {
-    
-      $( '.swipebox' ).swipebox();
-    
-    } )( jQuery );
-    </script>
+    ; (function ($) {
+
+      $('.swipebox').swipebox();
+
+    })(jQuery);
+  </script>
 
 </body>
 

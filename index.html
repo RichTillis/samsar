@@ -17,6 +17,7 @@
   <link rel="stylesheet" type="text/css" href="css/bootsnav.css">
   <link rel="stylesheet" type="text/css" href="css/loader.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/swipebox.css">
   <link rel="icon" href="images/SARCI-Favicon.png">
 </head>
 
@@ -344,8 +345,11 @@
           </div>
           <div class="item">
             <div class="news">
+                
               <div class="image">
-                <img src="images/7fallsDec2017.png" alt="News">
+                  <a href="images/7fallsDec2017.png" class="swipebox" title="My Caption">
+                    <img src="images/7fallsDec2017.png" alt="image">
+                    </a>
               </div>
               <div class="news_text">
                 <h4 class="bottom10">
@@ -574,6 +578,14 @@
   <script src="js/revolution.extension.video.min.js"></script>
   <script src="js/wow.min.js"></script>
   <script src="js/functions.js"></script>
+  <script src="js/jquery.swipebox.js"></script>
+  <script type="text/javascript">
+    ;( function( $ ) {
+    
+      $( '.swipebox' ).swipebox();
+    
+    } )( jQuery );
+    </script>
 
 </body>
 

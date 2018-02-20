@@ -2715,3 +2715,9 @@ nav.navbar.bootsnav ul.nav > li > a.border:before{
 		display:none;
   }
 }
+
+.profile-border{
+	border: 2px solid black;
+    padding: 10px;
+    border-radius: 25px;
+}

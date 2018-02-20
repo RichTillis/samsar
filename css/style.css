@@ -278,6 +278,12 @@ blockquote {
   color:#888888;
 }
 
+.standout-link {
+	color:#d2232a;
+	text-decoration:underline;
+}
+
+
 
 /* ---------------- Button ---------------- */
 .btn-border, .btn-green, .btn-white, .btn-yellow, .btn-dark, .btn-border-white{

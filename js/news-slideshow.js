@@ -52,3 +52,11 @@ $('#latr').click(function (e) {
 		{ href: './images/news/full/latr15.jpg', title: 'Large Animal Rescue Training' },
 	]);
 });
+
+$('#NewMember').click(function (e) {
+	e.preventDefault();
+	$.swipebox([
+		{ href: './images/news/full/new-member1.jpeg', title: 'New Member' },
+		{ href: './images/news/full/new-member2.jpeg', title: 'New Member' }
+	]);
+});

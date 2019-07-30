@@ -1,3 +1,22 @@
+$('#smallwood').click(function (e) {
+	e.preventDefault();
+	$.swipebox([
+		{ href: './images/news/full/smallwood1.PNG', title: 'Madera Canyon Snow Rescue' },
+		{ href: './images/news/full/smallwood2.PNG', title: 'Madera Canyon Snow Rescue' },
+		{ href: './images/news/full/smallwood3.PNG', title: 'Madera Canyon Snow Rescue' }
+	]);
+});
+
+$('#snowRescue').click(function (e) {
+	e.preventDefault();
+	$.swipebox([
+		{ href: './images/news/full/snow-rescue1.png', title: 'Madera Canyon Snow Rescue' },
+		{ href: './images/news/full/snow-rescue2.png', title: 'Madera Canyon Snow Rescue' },
+		{ href: './images/news/full/snow-rescue3.png', title: 'Madera Canyon Snow Rescue' },
+		{ href: './images/news/full/snow-rescue4.png', title: 'Madera Canyon Snow Rescue' }
+	]);
+});
+
 $('#rescue-training').click(function (e) {
 	e.preventDefault();
 	$.swipebox([
